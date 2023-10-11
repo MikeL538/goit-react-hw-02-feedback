@@ -1,0 +1,8 @@
+.positiveFeedback {
+  min-width: 240px;
+}
+
+.rating {
+  display: flex;
+  gap: 12px;
+}
