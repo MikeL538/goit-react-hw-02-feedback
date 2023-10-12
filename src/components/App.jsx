@@ -4,7 +4,7 @@ import Section from './Section/Section';
 import Statistics from './Statistics/Statistics';
 import css from './style.module.css';
 
-const App = () => {
+function App() {
   const [feedback, setFeedback] = useState(() => {
     const storedFeedback = JSON.parse(localStorage.getItem('feedback')) || {
       good: 0,
@@ -56,6 +56,6 @@ const App = () => {
       </Section>
     </div>
   );
-};
+}
 
 export default App;
